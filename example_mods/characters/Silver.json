@@ -1,0 +1,100 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				-83,
+				394
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Silver_up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-82,
+				349
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Silver_idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				95,
+				240
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "bravo",
+			"indices": [],
+			"name": "Silver_bowed"
+		},
+		{
+			"offsets": [
+				-80,
+				362
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Silver_down"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-96,
+				362
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "Silver_right",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-61,
+				372
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Silver_left"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				241,
+				355
+			],
+			"anim": "Attack",
+			"fps": 24,
+			"name": "Silver_attack",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Silver",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "Silver",
+	"flip_x": false,
+	"healthbar_colors": [
+		164,
+		168,
+		171
+	],
+	"camera_position": [
+		-840,
+		-550
+	],
+	"sing_duration": 6.1,
+	"scale": 1.1
+}

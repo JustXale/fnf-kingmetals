@@ -1,0 +1,35 @@
+{
+	"cutscene": [
+		{
+			"voiceline": "20",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "justice",
+			"showBox": true,
+			"text": "Well, well, well... Look who's got his ingot kicked. What a spectacular show!"
+		},
+		{
+			"voiceline": "21",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "meh",
+			"showBox": true,
+			"text": "This is not over yet... let's see how you handle this...!"
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "meh",
+			"showBox": false,
+			"text": "",
+			"event": "video:palladium"
+		}
+    ]
+}

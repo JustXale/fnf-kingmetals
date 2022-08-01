@@ -1,0 +1,24 @@
+{
+	"cutscene": [
+		{
+			"voiceline": "22",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "monster",
+			"showBox": true,
+			"text": "You can kiss goodbye your singing career. And your life too."
+		},
+		{
+			"voiceline": "23",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "shocked",
+			"showBox": true,
+			"text": "BEEP BE BOOP?!"
+		}
+    ]
+}

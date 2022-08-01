@@ -1,0 +1,54 @@
+{
+	"cutscene": [
+		{
+			"voiceline": "15",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "angry",
+			"showBox": true,
+			"text": "Hey, that's not fair! You've clearly cheated! I was about to win!"
+		},
+		{
+			"voiceline": "16",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "scream",
+			"showBox": true,
+			"text": "BROOOOOOOOOOTHEEEEEEER!"
+		},
+		{
+			"voiceline": "17",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "meh",
+			"showBox": true,
+			"text": "Step aside, Gold. I'll take it from here."
+		},
+		{
+			"voiceline": "18",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "a",
+			"showBox": true,
+            "text": "Beep boop?"
+        },
+		{
+			"voiceline": "19",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "meh",
+			"showBox": true,
+			"text": "I don't know what nonsense did you say but I'm definitely offended."
+		}
+    ]
+}

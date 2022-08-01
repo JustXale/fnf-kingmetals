@@ -1,0 +1,265 @@
+{
+	"cutscene": [
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "1",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "1",
+			"sound": "",
+			"cutscenePic": "1",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": true,
+			"text": "What a wonderful day!"
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "2",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "3",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "4",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "5",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "6",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "7",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "8",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "2",
+			"sound": "",
+			"cutscenePic": "9",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"showBox": true,
+			"text": "Don't worry, I'll get you a new kite. It was an accident... The sun was in my eyes!"
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "10",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "11",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "3",
+			"sound": "",
+			"cutscenePic": "12",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"showBox": true,
+			"text": "Girlfriend, look! That's my thing! The singing battles!"
+		},
+		{
+			"voiceline": "4",
+			"sound": "",
+			"cutscenePic": "13",
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "excited",
+			"showBox": true,
+			"text": "And free soda!"
+		},
+		{
+			"voiceline": "5",
+			"sound": "",
+			"cutscenePic": "14",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": true,
+			"text": "Well, here we go then!"
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "15",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": false,
+			"text": ""
+		},
+		{
+			"voiceline": "6",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": true,
+			"text": "Greetings, our young guests! What brings you here?",
+			"event": "changeMusic:gold"
+		},
+		{
+			"voiceline": "7",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": true,
+			"text": "Beep boob be!"
+		},
+		{
+			"voiceline": "8",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "question",
+			"showBox": true,
+			"text": "Uh... what was that?"
+		},
+		{
+			"voiceline": "9",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "calm",
+			"showBox": true,
+			"text": "Be boop bo!"
+		},
+		{
+			"voiceline": "10",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "excited",
+			"showBox": true,
+			"text": "We came for free Diet Coke!"
+		},
+		{
+			"voiceline": "",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "angry",
+			"showBox": true,
+			"text": ". . ."
+		},
+		{
+			"voiceline": "11",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "bored",
+			"showBox": true,
+			"text": "Oh, right... and for singing battle."
+		},
+		{
+			"voiceline": "12",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "question",
+			"showBox": true,
+			"text": "Whoah! A singing battle? Here, at our Palace?"
+		},
+		{
+			"voiceline": "13",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "question",
+			"showBox": true,
+			"text": "Huh, dunno where you heard it but if you're seeking singing battles..."
+		},
+		{
+			"voiceline": "14",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "happy",
+			"showBox": true,
+			"text": "...then you've come to the right metal! I've got a truly GOLDEN voice, uf you know what I mean!"
+		}
+	]
+}

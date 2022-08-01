@@ -1,0 +1,9 @@
+{
+	"directory": "evilpalace",
+	"defaultZoom": 0.6,
+	"isPixelStage": false,
+
+	"boyfriend": [1200, 100],
+	"girlfriend": [450, 70],
+	"opponent": [50, 200]
+}

@@ -93,11 +93,6 @@
 		0,
 		200
 	],
-	"healthbar_colors2": [
-		180,
-		180,
-		180
-	],
 	"healthicon": "spooky",
 	"flip_x": false,
 	"healthbar_colors": [

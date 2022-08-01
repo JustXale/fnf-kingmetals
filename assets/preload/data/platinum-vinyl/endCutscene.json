@@ -1,0 +1,64 @@
+{
+	"cutscene": [
+		{
+			"voiceline": "24",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "bored",
+			"showBox": true,
+			"text": "You turn out to be better at this then it seems. I'll spare your life."
+		},
+		{
+			"voiceline": "25",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "spare",
+			"showBox": true,
+			"text": "You may leave."
+		},
+		{
+			"voiceline": "26",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "normal",
+			"expression": "hehe",
+			"showBox": true,
+			"text": "I'm truly surprised you didn't break your fingers."
+		},
+		{
+			"voiceline": "27",
+			"sound": "",
+			"cutscenePic": "",
+			"portrait": "metals",
+			"boxState": "what",
+			"expression": "what",
+			"showBox": true,
+			"text": "What the rust... I don't believe it! They were supposed to be defeated!"
+		},
+		{
+			"voiceline": "28",
+			"sound": "",
+			"cutscenePic": "16",
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"showBox": true,
+			"text": "Thanks guys! It was awesome! Well, the poster didn't lie, I've got what i expected! An epic rap-battle!"
+		},
+		{
+			"voiceline": "29",
+			"sound": "",
+			"cutscenePic": "17",
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "bored",
+			"showBox": true,
+			"text": "And i didn't get my soda..."
+		}
+    ]
+}
