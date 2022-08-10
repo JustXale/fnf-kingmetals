@@ -1,6 +1,6 @@
 {
 	"song": {
-		"player1": "bf",
+		"player1": "shadowbf",
 		"events": [
 			[
 				121200,
@@ -13,7 +13,7 @@
 				]
 			]
 		],
-		"gfVersion": "gf",
+		"gfVersion": "shadowgf",
 		"notes": [
 			{
 				"sectionNotes": [],
