@@ -3898,7 +3898,7 @@ class PlayState extends MusicBeatState
 		{
 			var targetsArray:Array<FlxCamera> = [camGame, camHUD];
 				for (i in 0...targetsArray.length) {
-					targetsArray[i].shake(0.02, 0.05);
+					targetsArray[i].shake(0.005, 0.025);
 				}
 		}
 
