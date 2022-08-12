@@ -2,8 +2,8 @@
 <TextureAtlas imagePath="HurtSplashes.png">
 	<!-- Created with Adobe Animate version 22.0.4.185 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="HurtSplashes0000" x="13" y="13" width="186" height="150"/>
-	<SubTexture name="HurtSplashes0001" x="199" y="13" width="186" height="150"/>
-	<SubTexture name="HurtSplashes0002" x="13" y="163" width="186" height="150"/>
-	<SubTexture name="HurtSplashes0003" x="199" y="163" width="186" height="150"/>
+	<SubTexture name="HurtSplashes0000" x="13" y="13" width="186" height="150"   frameY="-5"/>
+	<SubTexture name="HurtSplashes0001" x="199" y="13" width="186" height="150"  frameY="-5"/>
+	<SubTexture name="HurtSplashes0002" x="13" y="163" width="186" height="150"  frameY="-5"/>
+	<SubTexture name="HurtSplashes0003" x="199" y="163" width="186" height="150" frameY="-5"/>
 </TextureAtlas>

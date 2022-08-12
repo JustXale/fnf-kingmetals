@@ -98,6 +98,14 @@ class Note extends FlxSprite
 
 		if(noteData > -1 && noteType != value) {
 			switch(value) {
+				case 'Killshot':
+					ignoreNote = mustPress;
+					reloadNote('Killshot');
+					noteSplashTexture = 'HurtSplashes';
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
+
 				case 'Hurt Note':
 					ignoreNote = mustPress;
 					reloadNote('HURT');

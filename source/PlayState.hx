@@ -3812,7 +3812,7 @@ class PlayState extends MusicBeatState
 		combo = 0;
 
 		health -= daNote.missHealth * healthLoss;
-		if(instakillOnMiss)
+		if(instakillOnMiss || daNote.noteType == 'Killshot')
 		{
 			vocals.volume = 0;
 			doDeathCheck(true);
@@ -4310,6 +4310,16 @@ class PlayState extends MusicBeatState
 	{
 		super.beatHit();
 
+		switch (curBeat)
+		{
+			case 404
+				while(health <= 0.05)
+					{
+						health -= 0.1 * healthLoss;
+					}
+
+		}
+		
 		if(lastBeatHit >= curBeat) {
 			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
 			return;

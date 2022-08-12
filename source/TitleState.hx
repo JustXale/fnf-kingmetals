@@ -39,11 +39,8 @@ import openfl.Assets;
 using StringTools;
 typedef TitleData =
 {
-	
 	titlex:Float,
 	titley:Float,
-	startx:Float,
-	starty:Float,
 	gfx:Float,
 	gfy:Float,
 	backgroundSprite:String,
@@ -268,12 +265,13 @@ class TitleState extends MusicBeatState
 		add(bg);
 
 		logoBl = new FlxSprite(titleJSON.titlex, titleJSON.titley);
-		logoBl.frames = Paths.getSparrowAtlas('logoBumpin');
+		logoBl.frames = Paths.getSparrowAtlas('Logo');
 		
 		logoBl.antialiasing = ClientPrefs.globalAntialiasing;
-		logoBl.animation.addByPrefix('bump', 'logo bumpin', 24, false);
+		logoBl.animation.addByPrefix('bump', 'logo1', 24, false);
 		logoBl.animation.play('bump');
 		logoBl.updateHitbox();
+		logoBl.scale.set(0.4, 0.4);
 		// logoBl.screenCenter();
 		// logoBl.color = FlxColor.BLACK;
 
@@ -306,9 +304,9 @@ class TitleState extends MusicBeatState
 			//EDIT THIS ONE IF YOU'RE MAKING A SOURCE CODE MOD!!!!
 			//EDIT THIS ONE IF YOU'RE MAKING A SOURCE CODE MOD!!!!
 			//EDIT THIS ONE IF YOU'RE MAKING A SOURCE CODE MOD!!!!
-				gfDance.frames = Paths.getSparrowAtlas('gfDanceTitle');
-				gfDance.animation.addByIndices('danceLeft', 'gfDance', [30, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14], "", 24, false);
-				gfDance.animation.addByIndices('danceRight', 'gfDance', [15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29], "", 24, false);
+				gfDance.frames = Paths.getSparrowAtlas('Body');
+				gfDance.animation.addByPrefix('dance', 'body1', 24, false);
+				gfDance.scale.set(0.4, 0.4);
 		}
 		gfDance.antialiasing = ClientPrefs.globalAntialiasing;
 		
@@ -317,7 +315,7 @@ class TitleState extends MusicBeatState
 		add(logoBl);
 		logoBl.shader = swagShader.shader;
 
-		titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);
+		/*titleText = new FlxSprite(titleJSON.startx, titleJSON.starty);
 		#if (desktop && MODS_ALLOWED)
 		var path = "mods/" + Paths.currentModDirectory + "/images/titleEnter.png";
 		//trace(path, FileSystem.exists(path));
@@ -340,12 +338,12 @@ class TitleState extends MusicBeatState
 		titleText.animation.play('idle');
 		titleText.updateHitbox();
 		// titleText.screenCenter(X);
-		add(titleText);
+		add(titleText);*/
 
-		var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
+		/*var logo:FlxSprite = new FlxSprite().loadGraphic(Paths.image('logo'));
 		logo.screenCenter();
 		logo.antialiasing = ClientPrefs.globalAntialiasing;
-		// add(logo);
+		// add(logo);*/
 
 		// FlxTween.tween(logoBl, {y: logoBl.y + 50}, 0.6, {ease: FlxEase.quadInOut, type: PINGPONG});
 		// FlxTween.tween(logo, {y: logoBl.y + 50}, 0.6, {ease: FlxEase.quadInOut, type: PINGPONG, startDelay: 0.1});
@@ -562,11 +560,7 @@ class TitleState extends MusicBeatState
 			logoBl.animation.play('bump', true);
 
 		if(gfDance != null) {
-			danceLeft = !danceLeft;
-			if (danceLeft)
-				gfDance.animation.play('danceRight');
-			else
-				gfDance.animation.play('danceLeft');
+			gfDance.animation.play('dance');
 		}
 
 		if(!closedState) {
