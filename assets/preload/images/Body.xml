@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Body.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="body10000" x="13" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10001" x="1774" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10002" x="3535" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10003" x="5296" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10004" x="13" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10005" x="1774" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10006" x="3535" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10007" x="5296" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10008" x="13" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10009" x="1774" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10010" x="3535" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10011" x="5296" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10012" x="13" y="5488" width="1761" height="1825"/>
+	<SubTexture name="body10013" x="1774" y="5488" width="1761" height="1825"/>
+	<SubTexture name="body10014" x="13" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10015" x="13" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10016" x="1774" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10017" x="3535" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10018" x="5296" y="13" width="1761" height="1825"/>
+	<SubTexture name="body10019" x="13" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10020" x="1774" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10021" x="3535" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10022" x="5296" y="1838" width="1761" height="1825"/>
+	<SubTexture name="body10023" x="13" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10024" x="1774" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10025" x="3535" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10026" x="5296" y="3663" width="1761" height="1825"/>
+	<SubTexture name="body10027" x="13" y="5488" width="1761" height="1825"/>
+	<SubTexture name="body10028" x="1774" y="5488" width="1761" height="1825"/>
+	<SubTexture name="body10029" x="13" y="13" width="1761" height="1825"/>
+</TextureAtlas>

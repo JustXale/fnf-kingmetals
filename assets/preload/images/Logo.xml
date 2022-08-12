@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Logo.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logo10000" x="13" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10001" x="1847" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10002" x="3681" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10003" x="5515" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10004" x="13" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10005" x="1847" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10006" x="3681" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10007" x="5515" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10008" x="13" y="2685" width="1834" height="1336"/>
+	<SubTexture name="logo10009" x="1847" y="2685" width="1834" height="1336"/>
+	<SubTexture name="logo10010" x="3681" y="2685" width="1834" height="1336"/>
+	<SubTexture name="logo10011" x="5515" y="2685" width="1834" height="1336"/>
+	<SubTexture name="logo10012" x="13" y="4021" width="1834" height="1336"/>
+	<SubTexture name="logo10013" x="1847" y="4021" width="1834" height="1336"/>
+	<SubTexture name="logo10014" x="13" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10015" x="1847" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10016" x="3681" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10017" x="5515" y="13" width="1834" height="1336"/>
+	<SubTexture name="logo10018" x="13" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10019" x="1847" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10020" x="3681" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10021" x="5515" y="1349" width="1834" height="1336"/>
+	<SubTexture name="logo10022" x="13" y="2685" width="1834" height="1336"/>
+	<SubTexture name="logo10023" x="1847" y="2685" width="1834" height="1336"/>
+	<SubTexture name="logo10024" x="3681" y="4021" width="1834" height="1336"/>
+	<SubTexture name="logo10025" x="5515" y="4021" width="1834" height="1336"/>
+	<SubTexture name="logo10026" x="13" y="5357" width="1834" height="1336"/>
+	<SubTexture name="logo10027" x="13" y="4021" width="1834" height="1336"/>
+	<SubTexture name="logo10028" x="1847" y="4021" width="1834" height="1336"/>
+	<SubTexture name="logo10029" x="13" y="13" width="1834" height="1336"/>
+</TextureAtlas>
