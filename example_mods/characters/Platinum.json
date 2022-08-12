@@ -60,7 +60,7 @@
 				800,
 				401
 			],
-			"loop": false,
+			"loop": true,
 			"fps": 24,
 			"anim": "Attack",
 			"indices": [],
