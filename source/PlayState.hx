@@ -4312,11 +4312,11 @@ class PlayState extends MusicBeatState
 
 		switch (curBeat)
 		{
-			case 404
+			case 404:
 				while(health <= 0.05)
-					{
-						health -= 0.1 * healthLoss;
-					}
+				{
+					health -= 0.1;
+				}
 
 		}
 		
