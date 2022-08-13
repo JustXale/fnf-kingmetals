@@ -148,7 +148,7 @@
 			"boxState": "normal",
 			"expression": "talk",
 			"showBox": true,
-			"text": "Well, here we go then!"
+			"text": "Well, here we go, then!"
 		},
 		{
 			"voiceline": "",
@@ -229,7 +229,7 @@
 			"boxState": "normal",
 			"expression": "bored",
 			"showBox": true,
-			"text": "Oh, right... and for singing battle."
+			"text": "Oh, right... and for a singing battle."
 		},
 		{
 			"voiceline": "12",
@@ -259,7 +259,7 @@
 			"boxState": "normal",
 			"expression": "happy",
 			"showBox": true,
-			"text": "...then you've come to the right metal! I've got a truly GOLDEN voice, uf you know what I mean!"
+			"text": "...then you've come to the right metal! I've got a truly GOLDEN voice, if you know what I mean!"
 		}
 	]
 }

@@ -1,5 +1,7 @@
 package;
 
+import flixel.tweens.misc.NumTween;
+import flixel.tweens.misc.VarTween;
 import flixel.graphics.FlxGraphic;
 #if desktop
 import Discord.DiscordClient;
@@ -267,6 +269,9 @@ class PlayState extends MusicBeatState
 	
 	// Less laggy controls
 	private var keysArray:Array<Dynamic>;
+
+	var healthReduce:Bool = false;
+
 
 	override public function create()
 	{
@@ -701,8 +706,16 @@ class PlayState extends MusicBeatState
 		if (curStage == 'limo')
 			add(limo);
 
-		add(dadGroup);
-		add(boyfriendGroup);
+		if(curStage != 'stage')
+			{
+				add(boyfriendGroup);
+				add(dadGroup);
+			}
+		else
+			{
+				add(dadGroup);
+				add(boyfriendGroup);		
+			} // shit
 		
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
@@ -2351,6 +2364,20 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
+		trace(healthReduce);
+		trace(health);
+		if(healthReduce)
+		{
+			trace('yup');
+			if(health >= 0.01)
+				{
+					trace('yup x2');
+					health -= 1 * elapsed;
+				}
+				
+		}
+			
+
 		if(ratingName == '?') {
 			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName;
 		} else {
@@ -3898,7 +3925,7 @@ class PlayState extends MusicBeatState
 		{
 			var targetsArray:Array<FlxCamera> = [camGame, camHUD];
 				for (i in 0...targetsArray.length) {
-					targetsArray[i].shake(0.005, 0.025);
+					targetsArray[i].shake(0.007, 0.030);
 				}
 		}
 
@@ -4313,10 +4340,9 @@ class PlayState extends MusicBeatState
 		switch (curBeat)
 		{
 			case 404:
-				while(health <= 0.05)
-				{
-					health -= 0.1;
-				}
+				healthReduce = true;
+			case 412:
+				healthReduce = false;
 
 		}
 		

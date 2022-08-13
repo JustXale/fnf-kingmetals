@@ -8,17 +8,7 @@
 			"boxState": "normal",
 			"expression": "bored",
 			"showBox": true,
-			"text": "You turn out to be better at this then it seems. I'll spare your life."
-		},
-		{
-			"voiceline": "25",
-			"sound": "",
-			"cutscenePic": "",
-			"portrait": "metals",
-			"boxState": "normal",
-			"expression": "spare",
-			"showBox": true,
-			"text": "You may leave."
+			"text": "You turned out to be better at this then it seems. I'll spare your life. You may leave."
 		},
 		{
 			"voiceline": "26",
@@ -48,7 +38,7 @@
 			"boxState": "normal",
 			"expression": "talk",
 			"showBox": true,
-			"text": "Thanks guys! It was awesome! Well, the poster didn't lie, I've got what i expected! An epic rap-battle!"
+			"text": "Thanks guys! It was awesome! Well, the poster didn't lie, I've got what I expected! An epic rap-battle!"
 		},
 		{
 			"voiceline": "29",
@@ -58,7 +48,7 @@
 			"boxState": "normal",
 			"expression": "bored",
 			"showBox": true,
-			"text": "And i didn't get my soda..."
+			"text": "And I didn't get my soda..."
 		}
     ]
 }
