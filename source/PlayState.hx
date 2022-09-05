@@ -2369,7 +2369,7 @@ class PlayState extends MusicBeatState
 		if(healthReduce)
 		{
 			trace('yup');
-			if(health >= 0.01)
+			if(health >= 0.03)
 				{
 					trace('yup x2');
 					health -= 1 * elapsed;
