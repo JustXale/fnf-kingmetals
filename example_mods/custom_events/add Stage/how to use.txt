@@ -1,1 +1,0 @@
-put it in "mods/Stage" folder and add your Stage in images folder

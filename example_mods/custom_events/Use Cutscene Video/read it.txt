@@ -1,5 +1,0 @@
-1 put video in "mods/video" folder
-2 put it in data of song you want
-
-
-only strorymode to wrok

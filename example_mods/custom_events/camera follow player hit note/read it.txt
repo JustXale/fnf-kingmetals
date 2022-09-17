@@ -1,1 +1,0 @@
-if you hit note up camera will follow the note you hit

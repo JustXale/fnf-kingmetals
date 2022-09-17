@@ -2364,12 +2364,10 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		trace(healthReduce);
-		trace(health);
 		if(healthReduce)
 		{
 			trace('yup');
-			if(health >= 0.03)
+			if(health >= 0.09)
 				{
 					trace('yup x2');
 					health -= 1 * elapsed;

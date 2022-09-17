@@ -1,3 +1,0 @@
-camera will zoom in at your opponent char
-
-and zoom out to bf
