@@ -82,9 +82,9 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['vs Royal Metals Team'],
-			['STARDUST',			'star',				"Director, Artist, Animator, Co-creator of Characters",		'https://art-stardust.tumblr.com',							'444444'],
-			['xxKateLinnxx ',		'kate',				'Dialogue Editor, Co-creator of Characters',				'https://xkatylinnx.tumblr.com',							'C30085'],
-			['Di McClean',			'clean',			"Author of Characters' design",								'https://twitter.com/Di_McClean',							'279ADC'],
+			['STARDUST',			'star',				"Director, Artist, Animator, Co-creator of Characters (Gold, Silver, Platinum, Palladium)",		'https://art-stardust.tumblr.com',							'444444'],
+			['xxKateLinnxx ',		'kate',				'Dialogue Editor, Co-creator of Characters (Gold, Silver, Platinum, Palladium)',				'https://xkatylinnx.tumblr.com',							'C30085'],
+			['Di McClean',			'clean',			"Author of Characters' (Gold, Silver, Platinum, Palladium) design",								'https://twitter.com/Di_McClean',							'279ADC'],
 			['TheGreatOfDude', 		'dude', 			'Musician, Coder', 											'https://www.youtube.com/channel/UC1f0xHOz7UlXYAe8uMb_M6w', 'C30085'],
 			['JustXale', 			'xale', 			'Coder', 													'https://github.com/JustXale', 								'FFFFFF'],
 			['Vladibear', 			'vlad', 			'VA of Characters', 										'https://www.youtube.com/c/VladibearVA',					'FFFFFF'],
